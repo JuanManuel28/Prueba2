@@ -14,7 +14,8 @@ int main ()
   //Pregunta al usuario coordenadas del punto 2
   printf ("Introduzca X,Y para P2:");
   scanf ("%f, %f", &P2.X, &P2.Y);
-  
+  printf ("La suma de los puntos en X es: %.2f", P1.X + P2X);
+  printf ("La suma de los puntos en y es: %.2f", P1.Y + P2.Y);
 
 return 0;
 }
