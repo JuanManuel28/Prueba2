@@ -4,7 +4,7 @@
 typedef struct
 {
   float X, Y;
-} Coord
+} Coordenada
   
 int main ()
 {
@@ -12,8 +12,8 @@ int main ()
   printf ("Introduzca X,Y para P1:");
   scanf ("%f, %f", &P1.X, &P1.Y);
   //Pregunta al usuario coordenadas del punto 2
-  printf ('Introduzca X,Y para P2:");
-  scanf ("%d", &P2.X, &P2.Y);
+  printf ("Introduzca X,Y para P2:");
+  scanf ("%f, %f", &P2.X, &P2.Y);
   
 
 return 0;
